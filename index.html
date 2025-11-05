@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siroco Café Pub - Tu Punto de Encuentro Único</title>
+    <meta name="description" content="Descubre Siroco Café Pub: desayunos, ambiente exclusivo, cócteles y los mejores momentos.">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- NOTA DE OPTIMIZACIÓN: Para un rendimiento máximo, comprime las imágenes (ej. con TinyPNG) y conviértelas al formato WebP. -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.comcom/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome para iconos de redes sociales, etc. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- ===== INICIO: SCHEMA MARKUP (DATOS ESTRUCTURADOS PARA GOOGLE) ===== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BarOrPub",
+      "name": "Siroco Café Pub",
+      "description": "Café de día, pub de noche. Música, copas y buen ambiente en el corazón de Ayamonte.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Pl. la Lota, 5",
+        "addressLocality": "Ayamonte",
+        "postalCode": "21400",
+        "addressRegion": "Huelva",
+        "addressCountry": "ES"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "37.2115881",
+        "longitude": "-7.4088169"
+      },
+      "url": "https://www.URL-DE-TU-WEB.com",  <!-- IMPORTANTE: Cambia esto por tu dominio real -->
+      "telephone": "+34622727298",
+      "email": "cafepubsiroco@gmail.com",
+      "image": "https://www.URL-DE-TU-WEB.com/images/logo.png", <!-- IMPORTANTE: Cambia esto por tu dominio real -->
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "09:00",
+          "closes": "02:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "09:00",
+          "closes": "03:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "15:00",
+          "closes": "02:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/sirococafepub/"
+      ]
+    }
+    </script>
+    <!-- ===== FIN: SCHEMA MARKUP ===== -->
+
+    <style>
+        /* [EL CSS PERMANECE IGUAL, SALVO LAS SECCIONES DE INSTAGRAM Y RESEÑAS] */
+        :root{--primary-dark:#1a1a1a;--secondary-dark:#2c2c2c;--text-light:#f0f0f0;--text-gray:#b0b0b0;--accent-gold:#c2a77b;--border-color:#444}*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:'Raleway',sans-serif;line-height:1.6;color:var(--text-light);background-color:var(--primary-dark);-webkit-font-smoothing:antialiased;overflow-x:hidden;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}a{text-decoration:none;color:var(--accent-gold);transition:color .3s ease}a:hover{color:#d4b58a}ul{list-style:none}h1,h2,h3,h4{font-family:'Playfair Display',serif;color:var(--text-light);margin-bottom:1rem;line-height:1.2}p{margin-bottom:1rem}.container{max-width:1200px;margin:0 auto;padding:0 2rem}.section-padding{padding:80px 0}.text-center{text-align:center}.animate-on-scroll{opacity:0;transition:opacity .6s ease-out,transform .7s cubic-bezier(.25,.46,.45,.94);transition-delay:var(--delay,0s)}.fade-in-up{transform:translateY(30px)}.slide-in-left{transform:translateX(-50px)}.slide-in-right{transform:translateX(50px)}.animate-on-scroll.is-visible{opacity:1;transform:translateY(0) translateX(0)}.image-zoom-out{overflow:hidden;border-radius:8px}.image-zoom-out img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(1.15);transition:transform .8s cubic-bezier(.25,.46,.45,.94),filter .4s ease}.animate-on-scroll.is-visible .image-zoom-out img{transform:scale(1)}.image-zoom-out:hover img{transform:scale(1.03)!important;filter:brightness(1.05)}#preloader{position:fixed;top:0;left:0;width:100%;height:100%;z-index:9999;background-color:var(--primary-dark);display:flex;justify-content:center;align-items:center;transition:opacity .7s ease,visibility .7s ease}#preloader img{width:80vw;max-width:400px;height:auto;animation:pulse 1.8s ease-in-out infinite}#preloader.hidden{opacity:0;visibility:hidden}@keyframes pulse{0%{transform:scale(1);opacity:.8}50%{transform:scale(1.05);opacity:1}100%{transform:scale(1);opacity:.8}}header{background-color:var(--primary-dark);padding:1rem 0;position:fixed;width:100%;z-index:1000;box-shadow:0 2px 10px rgba(0,0,0,.5)}header .container{display:flex;justify-content:space-between;align-items:center}.logo{display:flex;align-items:center;gap:.8rem;font-size:1.8rem;font-weight:700;color:var(--accent-gold);letter-spacing:2px;text-transform:uppercase}.logo img{height:45px;width:auto}nav ul{display:flex}nav ul li{margin-left:2.5rem}nav ul li a{color:var(--text-light);font-weight:500;text-transform:uppercase;font-size:.95rem;letter-spacing:1px;position:relative}nav ul li a::after{content:'';position:absolute;width:0;height:2px;background-color:var(--accent-gold);left:0;bottom:-5px;transition:width .3s ease-out}nav ul li a:hover::after{width:100%}
+        #hero{position:relative;height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden}
+        #hero video { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -2; object-fit: cover; background-size: cover; }
+        #hero::after{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,.5); z-index:-1}
+        #hero .hero-content{position:relative;z-index:1;max-width:800px;padding:3rem;border-radius:15px;background:rgba(26,26,26,.25);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.18);box-shadow:0 8px 32px 0 rgba(0,0,0,.37)}#hero h1{font-size:4rem;color:var(--accent-gold);margin-bottom:1.5rem;letter-spacing:3px;text-shadow:0 2px 10px rgba(0,0,0,.7)}#hero p{font-size:1.4rem;color:var(--text-light);margin-bottom:2.5rem;font-weight:300}.btn-gold{display:inline-block;background-color:var(--accent-gold);color:var(--primary-dark);padding:1rem 2.5rem;border-radius:5px;font-weight:700;text-transform:uppercase;letter-spacing:1px;transition:background-color .3s ease,transform .3s ease;border:none;cursor:pointer;box-shadow:0 4px 15px rgba(0,0,0,.3)}.btn-gold:hover{background-color:#d4b58a;transform:translateY(-3px)}#about{background-color:var(--secondary-dark)}#about h2,#gallery h2,#location h2,#menu h2, #reviews h2, #instagram-cta h2{font-size:3rem;margin-bottom:2rem;position:relative;display:inline-block}#about h2::after,#gallery h2::after,#location h2::after,#menu h2::after, #reviews h2::after, #instagram-cta h2::after{content:'';position:absolute;left:50%;transform:translateX(-50%);bottom:-10px;width:60px;height:3px;background-color:var(--accent-gold)}#about p{max-width:700px;margin:0 auto 2rem;color:var(--text-gray);font-size:1.1rem}.about-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem;margin-top:3rem;align-items:stretch}.about-item{background-color:var(--primary-dark);border-radius:8px;box-shadow:0 8px 20px rgba(0,0,0,.3);display:flex;flex-direction:column;overflow:hidden}.about-item .about-text{padding:1.5rem}.about-item .image-zoom-out{height:250px}.about-item h3{font-size:1.8rem;color:var(--accent-gold);margin-top:0;margin-bottom:.8rem}.about-item p{font-size:.95rem;color:var(--text-gray);line-height:1.8;margin-bottom:0}#menu{background-color:var(--primary-dark)}.menu-category{margin-bottom:4rem;text-align:left}.menu-category:last-child{margin-bottom:0}.menu-category-layout{display:grid;grid-template-columns:repeat(12,1fr);gap:2rem;align-items:flex-start}.menu-category-content{grid-column:span 7}.menu-category-image{grid-column:span 5;padding-top:4rem}.menu-category h3{font-size:2.2rem;color:var(--accent-gold);margin-bottom:2rem;position:relative;display:inline-block}.menu-category h3::after{content:'';position:absolute;left:0;bottom:-5px;width:40px;height:2px;background-color:var(--border-color)}.menu-item-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(350px,1fr));gap:1.5rem}.menu-list-item{display:flex;flex-direction:column;justify-content:space-between;border-bottom:1px dashed var(--border-color);padding-bottom:1rem;margin-bottom:1rem}.menu-item-header{display:flex;justify-content:space-between;align-items:baseline;width:100%;margin-bottom:.5rem}.menu-list-item h4{margin:0;font-size:1.2rem;color:var(--text-light)}.menu-list-item .price{font-size:1.2rem;font-weight:700;color:var(--accent-gold);white-space:nowrap;margin-left:1rem}.menu-list-item p{font-size:.9rem;color:var(--text-gray);margin-top:0;margin-bottom:0}.menu-list-item .tostada-detail{font-size:.95rem;color:var(--text-light);margin-top:.5rem}#gallery{background-color:var(--secondary-dark)}.gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;margin-top:3rem}.gallery-item{box-shadow:0 4px 15px rgba(0,0,0,.3);border-radius:8px}.gallery-item .image-zoom-out{height:300px}
+        #location{background-color:var(--secondary-dark);position:relative}#location p{color:var(--text-gray);font-size:1.1rem;margin-bottom:2rem}.location-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:flex-start;margin-top:3rem}.map-container{height:450px;border-radius:8px;overflow:hidden;box-shadow:0 8px 20px rgba(0,0,0,.3)}.map-container iframe{width:100%;height:100%;border:0}.contact-info-block{text-align:left}.contact-info-block h3{font-size:2rem;color:var(--accent-gold);margin-bottom:1.5rem}.contact-info-block p{font-size:1.1rem;margin-bottom:.8rem;color:var(--text-gray)}.contact-info-block p strong{color:var(--text-light)}.hours-list{list-style:none;padding:0;margin-top:1rem}.hours-list li{margin-bottom:.5rem;color:var(--text-gray);font-size:1.1rem}.hours-list li strong{color:var(--text-light)}footer{background-color:var(--primary-dark);color:var(--text-gray);padding:3rem 1rem;text-align:center;font-size:.9rem;border-top:1px solid var(--border-color)}footer .social-links-footer{margin-bottom:1.5rem}footer .social-links-footer a{color:var(--text-gray);font-size:1.6rem;margin:0 .7rem;transition:color .3s ease}footer .social-links-footer a:hover{color:var(--accent-gold)}
+        
+        /* ===== INICIO: CSS PARA LA NUEVA SECCIÓN DE INSTAGRAM ===== */
+        #instagram-cta {
+            background-color: var(--primary-dark);
+            position: relative;
+            overflow: hidden;
+        }
+        #instagram-cta::before {
+            content: '\f16d'; /* Icono de Instagram de Font Awesome */
+            font-family: 'Font Awesome 6 Brands';
+            position: absolute;
+            right: -50px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 35rem;
+            color: rgba(194, 167, 123, 0.05); /* Color dorado muy transparente */
+            z-index: 1;
+        }
+        .cta-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+            position: relative;
+            z-index: 2; /* Para que esté por encima del icono de fondo */
+        }
+        .cta-text { text-align: left; }
+        .cta-text h2 { display: inline-block; } /* Para que el subrayado se ajuste al texto */
+        .cta-text h2::after { transform: translateX(0); left: 0; } /* Ajuste del subrayado */
+        .cta-text p { color: var(--text-gray); font-size: 1.1rem; max-width: 500px; margin: 2rem 0; }
+        .cta-visuals { display: flex; justify-content: center; align-items: center; }
+        .phone-mockup {
+            width: 280px;
+            height: 560px;
+            background-color: #111;
+            border-radius: 40px;
+            padding: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,.5), inset 0 0 2px rgba(255,255,255,.2);
+            transform: rotate(5deg);
+        }
+        .phone-screen {
+            background-color: var(--primary-dark);
+            height: 100%;
+            border-radius: 25px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        .screen-header {
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: var(--secondary-dark);
+        }
+        .screen-header img {
+            height: 45px;
+            width: 45px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .screen-header h4 { font-family: 'Raleway', sans-serif; font-size: 1rem; margin: 0; }
+        .screen-header .follow-btn {
+            margin-left: auto;
+            background-color: var(--accent-gold);
+            color: var(--primary-dark);
+            font-size: 0.8rem;
+            padding: 5px 12px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .screen-gallery {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 3px;
+            flex-grow: 1;
+        }
+        .screen-gallery img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        /* ===== FIN: CSS PARA LA NUEVA SECCIÓN DE INSTAGRAM ===== */
+
+        /* ===== INICIO: CSS MODIFICADO PARA LA SECCIÓN DE RESEÑAS ===== */
+        #reviews { background-color: var(--secondary-dark); }
+        .reviews-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; margin-top: 3rem; }
+        .review-card { background-color: var(--primary-dark); padding: 2.5rem; border-radius: 8px; box-shadow: 0 8px 20px rgba(0,0,0,.3); display: flex; flex-direction: column; border-left: 4px solid var(--accent-gold); transition: transform 0.3s ease, box-shadow 0.3s ease; text-align: left; }
+        .review-card:hover { transform: translateY(-5px); box-shadow: 0 12px 25px rgba(0,0,0,.4); }
+        .review-author { display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem; }
+        .review-author .author-initial { width: 50px; height: 50px; border-radius: 50%; background-color: var(--accent-gold); color: var(--primary-dark); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: bold; font-family: 'Playfair Display', serif; }
+        .review-author h3 { margin: 0; font-size: 1.3rem; }
+        .review-stars { color: #fdd835; margin-bottom: 1rem; }
+        .review-card .review-text { color: var(--text-gray); font-style: italic; margin: 0; flex-grow: 1; }
+        .review-card.cta-card { text-align: center; justify-content: center; align-items: center; border-style: dashed; border-color: var(--border-color); background-color: var(--secondary-dark); }
+        .cta-card .google-icon { font-size: 3rem; color: var(--accent-gold); margin-bottom: 1.5rem; }
+        .cta-card p { color: var(--text-gray); margin-bottom: 2rem; }
+        .cta-card .btn-gold { margin-top: auto; }
+        /* ===== FIN: CSS MODIFICADO PARA LA SECCIÓN DE RESEÑAS ===== */
+
+        @media (max-width:992px){#hero h1{font-size:3.5rem}#hero p{font-size:1.2rem}nav ul li{margin-left:1.5rem}.location-grid{grid-template-columns:1fr}.contact-info-block{text-align:center}.menu-category-layout{display:flex;flex-direction:column}.menu-category-image{padding-top:0;margin-bottom:2rem;order:1}.menu-category-content{order:2}
+        .cta-grid { grid-template-columns: 1fr; } /* Cambia a una columna en tablets */
+        .cta-text { text-align: center; }
+        .cta-text h2::after { transform: translateX(-50%); left: 50%; } /* Centra el subrayado */
+        .phone-mockup { margin-top: 3rem; transform: rotate(0deg); } /* Quita la rotación en tablets */
+        #instagram-cta::before { font-size: 25rem; } /* Reduce el icono de fondo */
+        }
+        @media (max-width:768px){header .container{flex-direction:column}.logo{margin-bottom:1rem}nav ul{margin-top:0;flex-wrap:wrap;justify-content:center}nav ul li{margin:.5rem 1rem}#hero h1{font-size:2.8rem}#hero p{font-size:1rem}h2{font-size:2.5rem!important}.section-padding{padding:60px 0}.about-grid,.location-grid{grid-template-columns:1fr}.menu-item-list{grid-template-columns:1fr}.map-container{height:350px}.slide-in-left,.slide-in-right{transform:translateY(30px)}}
+        @media (max-width:480px){.logo{font-size:1.5rem}.logo img{height:35px}nav ul li{margin:.5rem .8rem;font-size:.9rem}#hero h1{font-size:2rem}#hero p{font-size:.9rem}.btn-gold{padding:.8rem 2rem;font-size:.9rem}h2{font-size:2rem!important}.contact-info-block h3{font-size:1.6rem}
+        .phone-mockup { width: 250px; height: 500px; } /* Ajusta el teléfono para móviles pequeños */
+        }
+    </style>
+</head>
+<body>
+
+    <div id="preloader">
+        <img src="images/logo.png" alt="Cargando Siroco Café Pub...">
+    </div>
+
+    <header>
+        <div class="container">
+            <a href="#hero" class="logo">
+                <img src="images/logo.png" alt="Logo de Siroco Café Pub">
+                <span>Siroco Café Pub</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#menu">Carta</a></li>
+                    <li><a href="#gallery">Galería</a></li>
+                    <li><a href="#instagram-cta">Instagram</a></li>
+                    <li><a href="#location">Visítanos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- ===== INICIO: HERO SECTION CON VÍDEO ===== -->
+        <section id="hero">
+            <video poster="images/video-poster.jpg" autoplay loop muted playsinline>
+                <source src="videos/background-video.mp4" type="video/mp4">
+                Tu navegador no soporta vídeos HTML5.
+            </video>
+            <div class="hero-content">
+                <h1>Siroco</h1>
+                <p>Café de día, pub de noche. Música, copas y buen ambiente en el corazón de Ayamonte . ¡Vive la experiencia Siroco!.</p>
+                <a href="#about" class="btn-gold">Descubre la Experiencia</a>
+            </div>
+        </section>
+        <!-- ===== FIN: HERO SECTION CON VÍDEO ===== -->
+
+        <section id="about" class="section-padding text-center">
+            <div class="container">
+                <h2 class="animate-on-scroll fade-in-up">Nuestra Esencia</h2>
+                <p class="animate-on-scroll fade-in-up" style="--delay: 0.1s;">En Siroco Café Pub, hemos forjado un espacio versátil donde cada detalle importa. Nuestra pasión es ofrecerte el mejor café para empezar el día y la copa perfecta para terminarlo, todo con un servicio impecable. Más que un pub, somos el punto de encuentro en Ayamonte para quienes buscan calidad, estilo y momentos memorables.</p>
+                <div class="about-grid">
+                    <div class="about-item animate-on-scroll slide-in-left" style="--delay: 0.2s;">
+                        <div class="image-zoom-out"><img src="images/desayuno.jpg" alt="Café de especialidad y tostada servidos en una mesa de Siroco Café Pub" loading="lazy"></div>
+                        <div class="about-text">
+                            <h3>El Comienzo Perfecto</h3>
+                            <p>Empieza tu día con la energía de Siroco. Disfruta de nuestro café de especialidad, tostadas con ingredientes frescos y un ambiente tranquilo para tus mañanas.</p>
+                        </div>
+                    </div>
+                    <div class="about-item animate-on-scroll slide-in-right" style="--delay: 0.2s;">
+                        <div class="image-zoom-out"><img src="images/lleno.jpg" alt="Ambiente nocturno del Siroco Café Pub con clientes y luces cálidas" loading="lazy"></div>
+                        <div class="about-text">
+                           <h3>Ambiente Exclusivo</h3>
+                           <p>Nuestro diseño interior invita a la relajación y al disfrute. Un espacio sofisticado y acogedor, ideal para tu noche perfecta.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="section-padding">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="animate-on-scroll fade-in-up">Nuestra Carta</h2>
+                    <p class="animate-on-scroll fade-in-up" style="color: var(--text-gray); font-size: 1.1rem; max-width: 700px; margin: 0 auto 3rem auto; --delay: 0.1s;">Todo lo que te apetece, en cualquier momento del día.</p>
+                </div>
+
+                <div class="menu-category">
+                    <div class="menu-category-layout">
+                        <div class="menu-category-content animate-on-scroll slide-in-left" style="--delay: 0.2s;">
+                            <h3>Desayunos y Meriendas</h3>
+                            <div class="menu-item-list">
+                                <!-- Cafés -->
+                                <div class="menu-list-item"><div class="menu-item-header"><h4>Café Solo</h4><span class="price">1.20€</span></div></div>
+                                <div class="menu-list-item"><div class="menu-item-header"><h4>Café Cortado</h4><span class="price">1.40€</span></div></div>
+                                <div class="menu-list-item"><div class="menu-item-header"><h4>Café con Leche</h4><span class="price">1.50€</span></div></div>
+                                <div class="menu-list-item"><div class="menu-item-header"><h4>Café Manchado</h4><span class="price">1.50€</span></div></div>
+                                <div class="menu-list-item"><div class="menu-item-header"><h4>Leche Manchada</h4><span class="price">1.50€</span></div></div>
+                                <div class="menu-list-item"><div class="menu-item-header"><h4>Café Americano</h4><span class="price">1.50€</span></div></div>
+                                <div class="menu-list-item"><div class="menu-item-header"><h4>Cola Cao</h4><span class="price">1.50€</span></div></div>
+                                <div class="menu-list-item"><div class="menu-item-header"><h4>Café Bombón</h4><span class="price">1.80€</span></div></div>
+                                <div class="menu-list-item"><div class="menu-item-header"><h4>Capuccino</h4><span class="price">1.80€</span></div></div>
+                                <div class="menu-list-item"><div class="menu-item-header"><h4>Carajillo</h4><span class="price">2.00€</span></div></div>
+                                <div class="menu-list-item"><div class="menu-item-header"><h4>Café con Baileys</h4><span class="price">2.00€</span></div></div>
+                                <div class="menu-list-item"><div class="menu-item-header"><h4>Café Irlandés</h4><span class="price">2.50€</span></div></div>
+                                <div class="menu-list-item"><div class="menu-item-header"><h4>Vaso de Leche</h4><span class="price">1.20€</span></div></div>
+                                <div class="menu-list-item"><div class="menu-item-header"><h4>Descafeinado de Sobre</h4><span class="price">1.20€</span></div></div>
+                                <div class="menu-list-item"><div class="menu-item-header"><h4>Infusiones Variadas</h4><span class="price">1.20€</span></div><p>Té Rojo, Té Verde, Manzanilla, Frutos Rojos, Menta-Poleo, Tila, Té Negro.</p></div>
+                                <div class="menu-list-item"><div class="menu-item-header"><h4>Rooibos Tropical</h4><span class="price">1.80€</span></div></div>
+                                <div class="menu-list-item"><div class="menu-item-header"><h4>Zumo Naranja Natural Pequeño</h4><span class="price">2.00€</span></div></div>
+                                <div class="menu-list-item"><div class="menu-item-header"><h4>Zumo Naranja Natural Grande</h4><span class="price">3.00€</span></div></div>
+                                <div class="menu-list-item"><div class="menu-item-header"><h4>Zumos (Melocotón, Pera, Piña)</h4><span class="price">2.00€</span></div></div>
+                                <div class="menu-list-item"><div class="menu-item-header"><h4>Biofrutas</h4><span class="price">1.70€</span></div></div>
+                                <div class="menu-list-item"><div class="menu-item-header"><h4>Batidos (Vainilla, Fresa, Chocolate)</h4><span class="price">2.00€</span></div></div>
+                            </div>
+                            
+                            <h4 style="font-family: 'Playfair Display', serif; color: var(--text-light); font-size: 1.8rem; margin-top: 3rem; margin-bottom: 1.5rem;"><h3>Tostadas</h3></h4>
+                            <p style="color: var(--text-gray); margin-bottom: 2rem;">Elige tu pan: Integral, Pueblo, Gallega, Mollete o Semillas. Precios Media / Entera.</p>
+                            <div class="menu-item-list">
+                                 <div class="menu-list-item">
+                                    <div class="menu-item-header"><h4>Con Mantequilla, Mermelada, Aceite o Tomate</h4></div>
+                                    <p class="tostada-detail"><strong>Integral:</strong> 1.20€ / 2.40€ | <strong>Pueblo:</strong> 1.40€ / 2.60€ | <strong>Gallega:</strong> 1.20€ / 1.20€ | <strong>Mollete:</strong> 1.20€ / 1.20€ | <strong>Semillas:</strong> 1.30€ / 2.60€</p>
+                                </div>
+                                <div class="menu-list-item">
+                                    <div class="menu-item-header"><h4>Con Jamón York o Patés (Ibérico/York/Jamón)</h4></div>
+                                    <p class="tostada-detail"><strong>Integral:</strong> 1.60€ / 2.80€ | <strong>Pueblo:</strong> 1.80€ / 3.00€ | <strong>Gallega:</strong> 1.60€ / 2.80€ | <strong>Mollete:</strong> 1.60€ / 2.80€ | <strong>Semillas:</strong> 1.70€ / 3.00€</p>
+                                </div>
+                                <div class="menu-list-item">
+                                    <div class="menu-item-header"><h4>Con Jamón Serrano</h4></div>
+                                    <p class="tostada-detail"><strong>Integral:</strong> 2.30€ / 4.60€ | <strong>Pueblo:</strong> 2.50€ / 5.00€ | <strong>Gallega:</strong> 2.30€ / 4.60€ | <strong>Mollete:</strong> 2.30€ / 4.60€</p>
+                                </div>
+                                 <div class="menu-list-item">
+                                    <div class="menu-item-header"><h4>Con Jamón York y Queso</h4></div>
+                                    <p class="tostada-detail"><strong>Integral:</strong> 2.00€ / 3.20€ | <strong>Pueblo:</strong> 2.20€ / 3.40€ | <strong>Gallega:</strong> 2.00€ / 3.20€ | <strong>Mollete:</strong> 2.00€ / 3.20€ | <strong>Semillas:</strong> 2.10€ / 3.40€</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-category-image animate-on-scroll slide-in-right" style="--delay: 0.2s;">
+                           <div class="image-zoom-out"><img src="images/carta-desayunos.jpg" alt="Variedad de desayunos y cafés ofrecidos en la carta de Siroco" loading="lazy"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-category">
+                     <div class="menu-category-layout">
+                        <div class="menu-category-image animate-on-scroll slide-in-left" style="--delay: 0.2s;">
+                           <div class="image-zoom-out"><img src="images/carta-sandwiches.jpg" alt="Sandwich completo servido en un plato en Siroco Café Pub" loading="lazy"></div>
+                        </div>
+                        <div class="menu-category-content animate-on-scroll slide-in-right" style="--delay: 0.2s;">
+                            <h3>Sandwiches</h3>
+                            <div class="menu-item-list">
+                                <div class="menu-list-item">
+                                    <div class="menu-item-header"><h4>Sandwich York Queso Simple</h4><span class="price">3.00€</span></div>
+                                </div>
+                                <div class="menu-list-item">
+                                    <div class="menu-item-header"><h4>Sandwich York Queso Completo</h4><span class="price">4.00€</span></div>
+                                    <p>Con queso fundido, patatas y orégano.</p>
+                                </div>
+                                <div class="menu-list-item">
+                                    <div class="menu-item-header"><h4>Sandwich Jamón Serrano y Tomate</h4><span class="price">4.50€</span></div>
+                                    <p>Con tomate fresco en rodajas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-category animate-on-scroll fade-in-up">
+                    <h3>Bebidas Premium</h3>
+                    <div class="menu-item-list">
+                        <div class="menu-list-item"><h4>Ron Barceló Imperial</h4></div>
+                        <div class="menu-list-item"><h4>Vodka Premium Ciroc</h4></div>
+                        <div class="menu-list-item"><h4>Tequila Don Julio (Reposado / Blanco)</h4></div>
+                        <div class="menu-list-item"><h4>Whisky Johnnie Walker Gold Label</h4></div>
+                        <div class="menu-list-item"><h4>Ginebra Tanqueray Nº TEN</h4></div>
+                    </div>
+
+                    <h4 style="font-family: 'Playfair Display', serif; color: var(--text-light); font-size: 1.8rem; margin-top: 3rem; margin-bottom: 1.5rem;">Elige tu Vaso</h4>
+                    <div class="menu-item-list">
+                         <div class="menu-list-item">
+                            <div class="menu-item-header"><h4>Vaso de Tubo</h4><span class="price">5.00€</span></div>
+                            <p>Con Red Bull o Kontact: 6.00€</p>
+                        </div>
+                        <div class="menu-list-item">
+                            <div class="menu-item-header"><h4>Vaso Ancho</h4><span class="price">6.00€</span></div>
+                             <p>Con Red Bull o Kontact: 7.00€</p>
+                        </div>
+                        <div class="menu-list-item">
+                            <div class="menu-item-header"><h4>Vaso de Balón</h4><span class="price">7.00€</span></div>
+                             <p>Con Red Bull o Kontact: 8.00€</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-category animate-on-scroll fade-in-up">
+                    <h3>Otros</h3>
+                    <div class="menu-item-list">
+                        <div class="menu-list-item"><div class="menu-item-header"><h4>Patatas</h4><span class="price">1.50€</span></div></div>
+                        <div class="menu-list-item"><div class="menu-item-header"><h4>Patatas Pringles</h4><span class="price">1.40€</span></div></div>
+                        <div class="menu-list-item"><div class="menu-item-header"><h4>Chicles</h4><span class="price">1.50€</span></div></div>
+                        <div class="menu-list-item"><div class="menu-item-header"><h4>Mecheros</h4><span class="price">1.30€</span></div></div>
+                        <div class="menu-list-item"><div class="menu-item-header"><h4>Vaper</h4><span class="price">8.00€</span></div></div>
+                        <div class="menu-list-item"><div class="menu-item-header"><h4>Cachimba</h4><span class="price">15.00€</span></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section-padding text-center">
+            <div class="container">
+                <h2 class="animate-on-scroll fade-in-up">Conoce Nuestro Espacio</h2>
+                <p class="animate-on-scroll fade-in-up" style="color: var(--text-gray); font-size: 1.1rem; max-width: 700px; margin: 0 auto 3rem auto; --delay: 0.1s;">Capturando la esencia de Siroco Café Pub en cada imagen.</p>
+                <div class="gallery-grid">
+                    <div class="gallery-item animate-on-scroll fade-in-up" style="--delay: 0s;"><div class="image-zoom-out"><img src="images/dentro1.jpg" alt="Vista interior de la barra y la decoración de Siroco Café Pub" loading="lazy"></div></div>
+                    <div class="gallery-item animate-on-scroll fade-in-up" style="--delay: 0.1s;"><div class="image-zoom-out"><img src="images/dentro2.jpg" alt="Cóctel profesional siendo servido en una copa en Siroco Café Pub" loading="lazy"></div></div>
+                    <div class="gallery-item animate-on-scroll fade-in-up" style="--delay: 0.2s;"><div class="image-zoom-out"><img src="images/dentro3.jpg" alt="Clientes disfrutando de una noche en el ambiente acogedor de Siroco" loading="lazy"></div></div>
+                    <div class="gallery-item animate-on-scroll fade-in-up" style="--delay: 0s;"><div class="image-zoom-out"><img src="images/dentro4.jpg" alt="Detalle de la barra iluminada y las botellas de Siroco Café Pub" loading="lazy"></div></div>
+                    <div class="gallery-item animate-on-scroll fade-in-up" style="--delay: 0.1s;"><div class="image-zoom-out"><img src="images/fuera1.jpg" alt="Terraza exterior de Siroco Café Pub por la noche" loading="lazy"></div></div>
+                    <div class="gallery-item animate-on-scroll fade-in-up" style="--delay: 0.2s;"><div class="image-zoom-out"><img src="images/logo 2.png" alt="Logo de neón de Siroco Café Pub en una pared interior" loading="lazy"></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== INICIO: SECCIÓN DE INSTAGRAM REDISEÑADA ===== -->
+        <section id="instagram-cta" class="section-padding">
+            <div class="container">
+                <div class="cta-grid">
+                    <div class="cta-text animate-on-scroll slide-in-left">
+                        <h2>Síguenos la Pista en Instagram</h2>
+                        <p>Descubre nuestros cócteles del día, eventos especiales y el ambiente único de Siroco en tiempo real. ¡No te pierdas nada y únete a nuestra comunidad online!</p>
+                        <a href="https://www.instagram.com/sirococafepub/" class="btn-gold" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                            Ver Perfil
+                        </a>
+                    </div>
+                    <div class="cta-visuals animate-on-scroll slide-in-right">
+                        <div class="phone-mockup">
+                            <div class="phone-screen">
+                                <div class="screen-header">
+                                    <img src="images/logo.png" alt="Logo Siroco">
+                                    <div>
+                                        <h4>@sirococafepub</h4>
+                                    </div>
+                                    <span class="follow-btn">Seguir</span>
+                                </div>
+                                <div class="screen-gallery">
+                                    <!-- Rellena con imágenes de tu galería -->
+                                    <img src="images/dentro1.jpg" alt="Galería Instagram 1">
+                                    <img src="images/dentro2.jpg" alt="Galería Instagram 2">
+                                    <img src="images/dentro3.jpg" alt="Galería Instagram 3">
+                                    <img src="images/fuera1.jpg" alt="Galería Instagram 4">
+                                    <img src="images/desayuno.jpg" alt="Galería Instagram 5">
+                                    <img src="images/lleno.jpg" alt="Galería Instagram 6">
+                                    <img src="images/dentro4.jpg" alt="Galería Instagram 7">
+                                    <img src="images/logo 2.png" alt="Galería Instagram 8">
+                                    <img src="images/carta-sandwiches.jpg" alt="Galería Instagram 9">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== FIN: SECCIÓN DE INSTAGRAM REDISEÑADA ===== -->
+
+        <section id="reviews" class="section-padding text-center">
+            <div class="container">
+                <h2 class="animate-on-scroll fade-in-up">Lo Que Dicen de Nosotros</h2>
+                <p class="animate-on-scroll fade-in-up" style="color: var(--text-gray); font-size: 1.1rem; max-width: 700px; margin: 0 auto 3rem auto; --delay: 0.1s;">La opinión de nuestros clientes es nuestra mejor carta de presentación. Esto es lo que algunos de ellos comparten en Google.</p>
+                <div class="reviews-grid">
+                    <div class="review-card animate-on-scroll fade-in-up" style="--delay: 0.2s;">
+                        <div class="review-author"><div class="author-initial">A</div><h3>Ana PR</h3></div>
+                        <div class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p class="review-text">"Un sitio encantador en Ayamonte. Desayunos riquísimos, buena música y una decoración súper acogedora. Perfecto para empezar el día con buen pie."</p>
+                    </div>
+                    <div class="review-card animate-on-scroll fade-in-up" style="--delay: 0.3s;">
+                        <div class="review-author"><div class="author-initial">L</div><h3>Lorena Perera Rodríguez</h3></div>
+                        <div class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        <p class="review-text">"Un sitio encantador, agradable y bonito es una calle peatonal donde poder estar con niños, rodeado de bares ideal para desayunos y tomar un copa."</p>
+                    </div>
+                    <div class="review-card cta-card animate-on-scroll fade-in-up" style="--delay: 0.4s;">
+                        <i class="fab fa-google google-icon"></i>
+                        <h3 style="color: var(--accent-gold);">Tu Opinión Nos Impulsa</h3>
+                        <p>¿Has disfrutado de la experiencia Siroco? ¡Comparte tu valoración en Google y ayúdanos a crecer!</p>
+                        <a href="#" class="btn-gold" target="_blank" rel="noopener noreferrer">Dejar una Reseña</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="location" class="section-padding text-center">
+            <div class="container">
+                <h2 class="animate-on-scroll fade-in-up">Visítanos</h2>
+                <p class="animate-on-scroll fade-in-up" style="--delay: 0.1s;">Estamos en el corazón de la ciudad, esperando para ofrecerte la mejor experiencia.</p>
+                <div class="location-grid">
+                    <div class="map-container animate-on-scroll slide-in-left" style="--delay: 0.2s;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3177.521717768805!2d-7.408816900000001!3d37.2115881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd102338f678f59d%3A0xa9fb7a35c11b76d8!2sCaf%C3%A9%20Pub%20Siroco!5e0!3m2!1ses!2ses!4v1761481375263!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa de ubicación de Siroco Café Pub"></iframe>
+                    </div>
+                    <div class="contact-info-block animate-on-scroll slide-in-right" style="--delay: 0.2s;">
+                        <h3>Encuéntranos en:</h3>
+                        <p><strong>Dirección:</strong> Pl. la Lota, 5, 21400 Ayamonte, Huelva</p>
+                        <p><strong>Teléfono:</strong> <a href="tel:+34622727298">+34 622727298</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:cafepubsiroco@gmail.com">cafepubsiroco@gmail.com</a></p>
+                        <h3 style="margin-top: 2rem;">Horario:</h3>
+                        <ul class="hours-list">
+                            <li><strong>Lunes: Cerrado / Martes, Miercoles y Jueves: 9:00 - 2:00 / Viernes y Sabados: 9:00 - 3:00 / Domingos: 15:00 - 2:00
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="social-links-footer">
+                <a href="https://www.instagram.com/sirococafepub/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2025 Siroco Café Pub. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+    <script>
+        // Preloader
+        window.onload = function() {
+            const preloader = document.getElementById('preloader');
+            setTimeout(() => {
+                preloader.classList.add('hidden');
+            }, 500);
+        };
+
+        // Protección de contenido
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+
+        document.onkeydown = function(e) {
+            if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I') || (e.ctrlKey && e.shiftKey && e.key === 'J') || (e.ctrlKey && e.key === 'U')) {
+                return false;
+            }
+        };
+        
+        // ===== SCRIPT PARA ANIMACIONES AL HACER SCROLL =====
+        document.addEventListener('DOMContentLoaded', () => {
+            const animatedElements = document.querySelectorAll('.animate-on-scroll');
+
+            if (animatedElements.length === 0) return;
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                        observer.unobserve(entry.target); // La animación ocurre solo una vez
+                    }
+                });
+            }, {
+                threshold: 0.1, 
+                rootMargin: "0px 0px -50px 0px" 
+            });
+
+            animatedElements.forEach(element => {
+                observer.observe(element);
+            });
+        });
+    </script>
+
+</body>
+</html>
